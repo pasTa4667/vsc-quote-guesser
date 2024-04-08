@@ -1,0 +1,56 @@
+body {
+    background-color: transparent;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.invite-button, .join-button {
+    display: block;
+    border: none;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+@keyframes highlightGreen {
+    0% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: initial;
+    }
+}
+
+@keyframes highlightRed {
+    0% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: initial;
+    }
+}
+
+.highlight-green {
+    animation: highlightGreen 1s ease;
+}
+
+.highlight-red {
+    animation: highlightRed 1s ease;
+}
